@@ -1,0 +1,87 @@
+/* Основной фон страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Темный фон */
+    color: #e0e0e0; /* Светлый цвет текста */
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для формы */
+.container {
+    width: 100%;
+    max-width: 360px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Темный фон для формы */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Стили для формы */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #fff; /* Белый цвет для заголовка */
+}
+
+/* Метки для полей */
+.form label {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #b0b0b0; /* Серый цвет для меток */
+}
+
+/* Поли ввода */
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    background-color: #333; /* Темный фон для полей ввода */
+    color: #fff; /* Белый текст */
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Кнопка */
+.form button {
+    padding: 12px;
+    margin-top: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6200ea; /* Ярко-фиолетовый цвет кнопки */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+/* Эффект при наведении на кнопку */
+.form button:hover {
+    background-color: #3700b3; /* Темнее фиолетовый при наведении */
+}
+
+/* Кнопка в отключенном состоянии */
+.form button:disabled {
+    background-color: #666; /* Серый фон для отключенной кнопки */
+    cursor: not-allowed;
+}
+
+/* Ссылка */
+.link {
+    color: #bb86fc; /* Светло-фиолетовый цвет для ссылки */
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.link:hover {
+    color: #3700b3; /* Темный фиолетовый цвет при наведении на ссылку */
+}
