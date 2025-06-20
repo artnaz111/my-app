@@ -16,22 +16,6 @@ npm install
 npm start
 Откройте в браузере: http://localhost:3000
 
-📂 Структура проекта
-
-registration-auth-app/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── LoginForm.tsx
-│   │   ├── RegisterForm.tsx
-│   ├── App.tsx
-│   ├── index.tsx
-│   ├── styles/
-│   │   └── form.css (или styled-components)
-├── package.json
-└── README.md
-
 ✍️ Автор: Назаров Артем
 
 Электронная почта: artnaz169@gmail.com
