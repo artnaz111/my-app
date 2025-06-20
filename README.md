@@ -18,17 +18,20 @@ npm start
 
 📂 Структура проекта
 
-my-app/
+registration-auth-app/
 ├── public/
 │   └── index.html
 ├── src/
 │   ├── components/
-│   │   ├── Login.jsx
-│   │   └── Register.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles.css
+│   │   ├── LoginForm.tsx
+│   │   ├── RegisterForm.tsx
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── styles/
+│   │   └── form.css (или styled-components)
+├── package.json
 └── README.md
+
 ✍️ Автор: Назаров Артем
 
 Электронная почта: artnaz169@gmail.com
